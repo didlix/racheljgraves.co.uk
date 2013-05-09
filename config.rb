@@ -10,7 +10,10 @@ require 'slim'
 
 activate :blog do |blog|
   blog.tag_template = "tag.html"
-  
+end
+
+activate :deploy do |deploy|
+  deploy.method = :git
 end
 
 # Change Compass configuration
