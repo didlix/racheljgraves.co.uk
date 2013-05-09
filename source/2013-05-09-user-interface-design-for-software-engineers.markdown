@@ -1,5 +1,5 @@
 ---
-date: 2013-05-01
+date: 2013-05-09
 title: A critical review of Spolsky, 2002, 'User Interface Design for Programmers'
 tags: UX, Books
 ---
