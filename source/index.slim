@@ -1,0 +1,18 @@
+h1#home Rachel Graves
+
+p 
+	| Hello! I make things for the Internet in Ruby, am the organiser of Geeks Of The Rise and am running research to help emergency services identify patients. I am looking for work, 
+	== link_to "so please check out my CV.", "cv.html"
+
+p 
+	| I am interested in  
+	- blog.tags.each_with_index do |tag, index|
+		- if index == blog.tags.size - 2
+			== link_to tag[0], tag_path(tag[0])
+			|  and 
+		- elsif index == blog.tags.size - 1
+			== link_to tag[0], tag_path(tag[0])
+			| .
+		- else
+			== link_to tag[0], tag_path(tag[0])
+			| , 
