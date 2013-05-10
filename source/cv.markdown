@@ -16,7 +16,7 @@ Accepted into an MSc in Human-Centred Systems at City University beginning in Se
 
 ### Development Skills
 
-I have 11 years’ experience working with object-oriented programming languages (PHP, JavaScript and Ruby) and with a number of frameworks and content management systems (Zend Framework, Ruby on Rails, Drupal, WordPress, Silverstripe, RefineryCMS and Joomla). I am also proficient in HTML and CSS.
+I have 11 years' experience working with object-oriented programming languages (PHP, JavaScript and Ruby) and with a number of frameworks and content management systems (Zend Framework, Ruby on Rails, Drupal, WordPress, Silverstripe, RefineryCMS and Joomla). I am also proficient in HTML and CSS.
 
 ### Tools and Processes
 Agile/Scrum, Coding Standards, Issue and Task tracking (Redmine, Trac, Jira, Pivotal Tracker), Version Control (SVN and Git), Deployment (Capistrano), Behaviour Driven Development (Cucumber, Capybara, Selenium, PhantomJS).
@@ -31,7 +31,7 @@ Worked with the project manager to provide technical analysis on a number of upc
 ### Comic Relief
 _PHP Developer, June 2012 -- September 2013_
 
-As part of the special projects team, I developed a back end system to process users' donations and marketing preferences submitted on Comic Relief’s websites. I also implemented a behavior driven development (BDD) and testing suite, allowing the team to develop and test using user stories. Moreover, I advised the quality team, project manager and product owner on how to leverage the BDD methodology to produce higher quality user stories.
+As part of the special projects team, I developed a back end system to process users' donations and marketing preferences submitted on Comic Relief's websites. I also implemented a behavior driven development (BDD) and testing suite, allowing the team to develop and test using user stories. Moreover, I advised the quality team, project manager and product owner on how to leverage the BDD methodology to produce higher quality user stories.
 
 ### Dachis Group
 _PHP Developer, September 2011 -- May 2012_
@@ -44,7 +44,7 @@ I organised internal 'presentation by example' and 'knowledge sharing' events, a
 ### Catch Digital
 _PHP Developer, June 2011 -- September 2011_
 
-For the charity, Scope, I helped develop a social drawing and story sharing website. Furthermore, I developed the system that allowed users to log in to either of Scope’s websites with the same username and password, keeping all of their data synchronised. I also developed the moderation portal, so that site moderators could ensure content was suitable for Scope’s audience.
+For the charity, Scope, I helped develop a social drawing and story sharing website. Furthermore, I developed the system that allowed users to log in to either of Scope's websites with the same username and password, keeping all of their data synchronised. I also developed the moderation portal, so that site moderators could ensure content was suitable for Scope's audience.
 
 Additionally, I trained the other developers in using Drupal's collaborative development features which helped Catch with their larger, multi-developer projects.
 
