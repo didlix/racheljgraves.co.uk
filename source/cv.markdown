@@ -16,10 +16,10 @@ Accepted into an MSc in Human-Centred Systems at City University beginning in Se
 
 ### Development Skills
 
-I have 11 years' experience working with object-oriented programming languages (PHP, JavaScript and Ruby) and with a number of frameworks and content management systems (Zend Framework, Ruby on Rails, Drupal, WordPress, Silverstripe, RefineryCMS and Joomla). I am also proficient in HTML and CSS.
+I have 11 years' experience working with a variety of object-oriented programming languages (Ruby, PHP and JavaScript) and with a number of frameworks and content management systems (Ruby on Rails, Padrino, Zend Framework, Drupal, RefineryCMS and Padrino). I am also proficient in HTML and CSS.
 
 ### Tools and Processes
-Agile/Scrum, Coding Standards, Issue and Task tracking (Redmine, Trac, Jira, Pivotal Tracker), Version Control (SVN and Git), Deployment (Capistrano), Behaviour Driven Development (Cucumber, Capybara, Selenium, PhantomJS).
+Agile/Scrum, Lean UX, Coding Standards, Issue and Task tracking (Redmine, Trac, Jira, Pivotal Tracker), Version Control (Git), Deployment (Capistrano), Behaviour Driven Development (Cucumber, Capybara, Selenium, PhantomJS), Test Driven Development (RSpec).
 
 ## Relevant Experience
 
