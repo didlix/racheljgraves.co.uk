@@ -2,6 +2,7 @@
 title: Research Update
 date: 2013-05-27 02:37 UTC
 tags: Research
+published: false
 ---
 
 A few weeks ago I launched a research project to analyse how people protect their smartphones with the aim of prototyping an app to help emergency services staff identify people in crisis.
