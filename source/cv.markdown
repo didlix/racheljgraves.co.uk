@@ -26,10 +26,10 @@ Agile/Scrum, Lean UX, Coding Standards, Issue and Task tracking (Redmine, Trac, 
 ### Ricardo-AEA
 _Lead Drupal Developer, October 2012 -- Janurary 2013_
 
-Worked with the project manager to provide technical analysis on a number of upcoming projects. As lead Drupal developer, I provided technical specifications to non-drupal developers. Moreover, I developed a site for the Environment Agency that allows them to produce ‘quality protocol compliance assessment forms’  to deliver compliance reports to end users.
+Worked with the project manager to provide technical analysis on a number of upcoming projects. As lead Drupal developer, I provided technical specifications to non-drupal developers. Moreover, I developed a site for the Environment Agency that allows them to produce 'quality protocol compliance assessment forms'  to deliver compliance reports to end users.
 
 ### Comic Relief
-_PHP Developer, June 2012 -- September 2013_
+_PHP Developer, June 2012 -- September 2012_
 
 As part of the special projects team, I developed a back end system to process users' donations and marketing preferences submitted on Comic Relief's websites. I also implemented a behavior driven development (BDD) and testing suite, allowing the team to develop and test using user stories. Moreover, I advised the quality team, project manager and product owner on how to leverage the BDD methodology to produce higher quality user stories.
 
