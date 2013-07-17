@@ -17,7 +17,6 @@ div.inner {
 }
 header {
   padding: 10px 0;
-  background: #EDEDED;
 }
 header, footer {
   text-align: center;
@@ -36,10 +35,7 @@ h1{
 	text-align: center;
 }
 h1#home {
-	background-image: url('/didlix.jpeg');
-	background-repeat: no-repeat;
-	background-position: top;
-	padding-top: 275px;
+  margin-top: 0;
 }
 header h1 {
   margin: 30px 0 30px 0;
@@ -108,4 +104,17 @@ nav li.last {
 }
 nav {
   clear: both;
+}
+
+.avatar-frame{border: 3px solid #EDEDED;}
+.avatar-frame,.avatar-frame img{
+width: 100px;
+height: 100px;
+-webkit-border-radius: 60px; /* Saf3+, Chrome */
+border-radius: 60px; /* Opera 10.5, IE 9 */
+/*-moz-border-radius: 60px; Disabled for FF1+ */
+}
+
+div.center {
+  margin: 20px auto;
 }

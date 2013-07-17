@@ -14,19 +14,22 @@ html
         |
         | ga('create', 'UA-23693212-3', 'didlix.net');
         | ga('send', 'pageview');
-        
+
       header
-        div.inner 
+        div.inner
+          div.avatar-frame.center
+            img src="/didlix.jpeg"
           h1 == link_to "didlix's place", "/"
+          <a href="https://github.com/didlix/didlixnet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 
       section#content
         div.inner
-          
+
           - if is_blog_article?
             == partial 'partials/post.slim'
           - else
             == yield
-          
+
       footer
         div.inner
           p &copy; Rachel Graves
