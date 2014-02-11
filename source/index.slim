@@ -1,13 +1,12 @@
 p
-	' Hello! I make things for the Internet using Ruby.
-	== link_to "I am also conducting research to help emergency services identify patients.", "https://t.co/6TdxF5ZpdZ"
-	'  I am presently working as a Ruby developer at the Money Advice Service.
-	== link_to "Feel free to check out my CV", "cv.html"
+	' Hello! I am a Human-Centred Systems MSc student at City University London. I am interested in conducting user research, and interaction design in healthcare.
+	== link_to "In my sparetime I work on the Information Architecture for Crowdhealth.", "http://crowdhealth.io"
+	== link_to " Feel free to check out my CV", "cv.html"
 	'  and
 	== link_to "get in touch.", "mailto:hello@didlix.net"
 
 p
-	' I am interested in
+	' I write about
 	- blog.tags.each_with_index do |tag, index|
 		- if index == blog.tags.size - 2
 			== link_to tag[0], tag_path(tag[0])
