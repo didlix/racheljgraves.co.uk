@@ -15,17 +15,33 @@ html
         | ga('create', 'UA-23693212-3', 'didlix.net');
         | ga('send', 'pageview');
 
-      header
+      header.subsection
         div.inner
-          div.avatar-frame.center
-            img src="/didlix.jpeg"
-          h1 == link_to "Rachel Graves", "/"
-          nav
-            ul
-              li  == link_to "Home", "index.html"
-              li  == link_to "Portfolio", "portfolio.html"
-              li  == link_to "Blog", "blog.html"
-              li.last  == link_to "Curriculum Vitae", "cv.html"
+          div.row
+            div.col
+              div.avatar-frame
+                img src="/didlix.jpeg"
+            div.col.right
+              h1 == link_to "Rachel Graves", "/"
+              nav
+                ul
+                  li  == link_to "Home", "index.html"
+                  li  == link_to "Portfolio", "portfolio.html"
+                  li  == link_to "Blog", "blog.html"
+                  li.last  == link_to "Curriculum Vitae", "cv.html"
+
+
+          / hr
+
+          / div.avatar-frame.center
+          /   img src="/didlix.jpeg"
+          / h1 == link_to "Rachel Graves", "/"
+          / nav
+          /   ul
+          /     li  == link_to "Home", "index.html"
+          /     li  == link_to "Portfolio", "portfolio.html"
+          /     li  == link_to "Blog", "blog.html"
+          /     li.last  == link_to "Curriculum Vitae", "cv.html"
 
           <a href="https://github.com/didlix/didlixnet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 

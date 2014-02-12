@@ -21,6 +21,9 @@ header {
 header, footer {
   text-align: center;
 }
+header.subsection, header.subsection h1 {
+  text-align: left;
+}
 h1, h2, h3 {
 	font-family: 'LatinModernRoman10Bold';
 	font-weight: normal;
@@ -39,6 +42,9 @@ h1#home {
 }
 header h1 {
   margin: 30px 0 0 0;
+}
+header.subsection h1 {
+  margin: 0;
 }
 h2{
 	font-size: 1.3em;
@@ -77,6 +83,9 @@ a:hover{
 }
 ul {
 	margin: 40px 0 30px 0;
+}
+header.subsection ul {
+  margin: 0;
 }
 li {
 	margin: 10px 0 10px 40px;
@@ -126,4 +135,34 @@ border-radius: 60px; /* Opera 10.5, IE 9 */
 
 div.center {
   margin: 20px auto;
+}
+
+div.col {
+  float: left;
+}
+
+
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+div.last {
+  float: right;
+  clear: both;
+}
+div.last:after {
+  content: ".";
+  display: none;
+}
+
+header.subsection div.right {
+  margin-left: 10px;
+  margin-top: 20px;
 }
