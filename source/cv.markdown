@@ -10,7 +10,7 @@ I am an experienced consultant and software engineer with a deep understanding o
 
 ## Education
 
-Accepted into an MSc in Human-Centred Systems at City University beginning in Sept 2013 (part-time).
+Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ## Skills
 

@@ -38,7 +38,7 @@ h1#home {
   margin-top: 0;
 }
 header h1 {
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
 }
 h2{
 	font-size: 1.3em;
@@ -97,10 +97,19 @@ nav {
   width: 100%;
 }
 nav ul li {
+  display: inline;
   list-style: none;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+nav li:after {
+  content: ",";
 }
 nav li.last {
   clear: both;
+}
+nav li.last:after {
+  content: ".";
 }
 nav {
   clear: both;

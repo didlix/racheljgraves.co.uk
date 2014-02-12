@@ -5,7 +5,7 @@ tags: NHS Hack Days
 published: false
 ---
 
-This weekend I attended my first ever hack day – NHS Hack Day 4. It is an event where doctors, medics, nurses, programmers, designers, ux consultants and various other talented people all get together, pitch ideas about how to make health care better and then form teams to make those ideas.
+This weekend I attended my first ever hack day – NHS Hack Day 4. It is an event where doctors, medics, nurses, programmers, designers, ux consultants and various other talented people all get together, pitch ideas about how to make healthcare better and then form teams to make those ideas.
 
 Not having attended a hack day before, I didn't really know what to expect from the format. I wasn't expecting to pitch an idea and I certainly wasn't expecting 4 programmers and a doctor to join me in trying to build my ideas.
 
