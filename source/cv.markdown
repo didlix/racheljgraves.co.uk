@@ -6,7 +6,9 @@ title: Rachel Graves, Curriculum Vitae
 
 ## Personal Profile
 
-I am an experienced consultant and software engineer with a deep understanding of all aspects of the software development lifecycle. I pride myself on being influential in affecting changes to processes that improve project delivery.
+I am an experienced product designer and enginer with a deep understanding of all aspects of both the design and development lifecycle. I pride myself on being influential in affecting changes to processes that improve project delivery.
+
+My skills and experience are most suited for teams that require a user experience designer with development skills required for prototyping products.
 
 ## Education
 
@@ -16,15 +18,17 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ### Development Skills
 
-I have 11 years' experience working with a variety of object-oriented programming languages (Ruby, PHP and JavaScript) and with a number of frameworks and content management systems (Ruby on Rails, Padrino, Zend Framework, Drupal, RefineryCMS and Padrino). I am also proficient in HTML and CSS.
+I have 13 years experience working with a variety of object-oriented programming languages (most recently Ruby) and with a number of frameworks and content management systems (Ruby on Rails, Sinatra, Padrino and Middleman). I am also proficient in HTML and CSS.
 
 ### Tools and Processes
-Agile/Scrum, Lean UX, Coding Standards, Issue and Task tracking (Redmine, Trac, Jira, Pivotal Tracker), Version Control (Git), Deployment (Capistrano), Behaviour Driven Development (Cucumber, Capybara, Selenium, PhantomJS), Test Driven Development (RSpec).
+I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design, Project Management and so on.
 
 ## Relevant Experience
 
 ### Money Advice Service
 _Ruby Developer, June 2013 -- Present_
+
+Worked on a number of Ruby on Rails Engines delivering Quiz, Budget Planning, Mortgage Calculation and Sign in and Account creation functionality.
 
 ### Ricardo-AEA
 _Lead Drupal Developer, October 2012 -- Janurary 2013_
