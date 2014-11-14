@@ -6,7 +6,7 @@ title: Rachel Graves, Curriculum Vitae
 
 ## Personal Profile
 
-I am an experienced product designer and enginer with a deep understanding of all aspects of both the design and development lifecycle. I pride myself on being influential in affecting changes to processes that improve project delivery.
+I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.
 
 My skills and experience are most suited for teams that require a user experience designer with development skills required for prototyping products.
 
@@ -21,7 +21,8 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 I have 13 years experience working with a variety of object-oriented programming languages (most recently Ruby) and with a number of frameworks and content management systems (Ruby on Rails, Sinatra, Padrino and Middleman). I am also proficient in HTML and CSS.
 
 ### Tools and Processes
-I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design, Project Management and so on.
+
+I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design and Evaluation, Project Management and so on.
 
 ## Relevant Experience
 
