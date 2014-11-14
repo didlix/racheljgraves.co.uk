@@ -4,11 +4,17 @@ title: Rachel Graves, Curriculum Vitae
 
 # Rachel Graves, Curriculum Vitae
 
+I am looking for contract positions as a junior UX designer & researcher, a ruby developer or something inbetween.
+
 ## Personal Profile
 
 I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.
 
-My skills and experience are most suited for teams that require a user experience designer with development skills required for prototyping products.
+My skills and experience are most suited for teams that require a user experience designer with development skills required for prototyping products. I enjoy working for companies and on projects that are designed to help people.
+
+I have specific interests in healthcare, feminism and marginalised groups and would very much enjoy working on projects which help these causes. However, please do contact me about your project as I do not limit myself to
+
+I am an energetic and enthusiastic person with a bright personality. In my spare time I like to host socials for friends. My hobbies include playing board games, enjoying most forms of science fiction and cycling.
 
 ## Education
 
