@@ -4,9 +4,17 @@ title: Rachel Graves, Curriculum Vitae
 
 # Rachel Graves, Curriculum Vitae
 
+I am looking for contract positions as a junior UX designer & researcher, a ruby developer or something inbetween.
+
 ## Personal Profile
 
-I am an experienced consultant and software engineer with a deep understanding of all aspects of the software development lifecycle. I pride myself on being influential in affecting changes to processes that improve project delivery.
+I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.
+
+My skills and experience are most suited for teams that require a user experience designer with development skills required for prototyping products. I enjoy working for companies and on projects that are designed to help people.
+
+I have specific interests in healthcare, feminism and assisting marginalised groups and would very much enjoy working on projects which help these causes. However, please do contact me about your project.
+
+I am an energetic and enthusiastic person with a bright personality. In my spare time I like to host socials for friends. My hobbies include playing board games, enjoying most forms of science fiction and cycling.
 
 ## Education
 
@@ -16,15 +24,18 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ### Development Skills
 
-I have 11 years' experience working with a variety of object-oriented programming languages (Ruby, PHP and JavaScript) and with a number of frameworks and content management systems (Ruby on Rails, Padrino, Zend Framework, Drupal, RefineryCMS and Padrino). I am also proficient in HTML and CSS.
+I have 13 years experience working with a variety of object-oriented programming languages (most recently Ruby) and with a number of frameworks and content management systems (Ruby on Rails, Sinatra, Padrino and Middleman). I am also proficient in HTML and CSS.
 
 ### Tools and Processes
-Agile/Scrum, Lean UX, Coding Standards, Issue and Task tracking (Redmine, Trac, Jira, Pivotal Tracker), Version Control (Git), Deployment (Capistrano), Behaviour Driven Development (Cucumber, Capybara, Selenium, PhantomJS), Test Driven Development (RSpec).
+
+I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design and Evaluation, Project Management and so on.
 
 ## Relevant Experience
 
 ### Money Advice Service
 _Ruby Developer, June 2013 -- Present_
+
+Worked on a number of Ruby on Rails Engines delivering Quiz, Budget Planning, Mortgage Calculation and Sign in and Account creation functionality.
 
 ### Ricardo-AEA
 _Lead Drupal Developer, October 2012 -- Janurary 2013_
