@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 title: Research Update
 date: 2013-05-27 02:37 UTC
 tags: Research

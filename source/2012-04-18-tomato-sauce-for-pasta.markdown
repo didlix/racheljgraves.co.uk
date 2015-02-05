@@ -1,4 +1,5 @@
 ---
+layout: post
 date: 2012-04-18
 title: Tomato sauce for pasta
 tags: Cooking

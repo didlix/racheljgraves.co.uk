@@ -1,4 +1,5 @@
 ---
+layout: blogpost
 title: NHS Hack Day 4
 date: 2013-05-27 02:37 UTC
 tags: NHS Hack Days
