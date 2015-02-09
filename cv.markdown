@@ -7,7 +7,7 @@ layout: default
 
 ## Personal Profile
 
-I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.
+I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.  Additionally, I am a big advocate of using user centred approaches to designing and building products.
 
 Projects which help people, specifically marginalised groups are of specific interest to me.
 
