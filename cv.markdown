@@ -32,7 +32,7 @@ I am proficient with a number of tools and processes in Test-Driven Development,
 ## Relevant Experience
 
 ### Money Advice Service
-_Ruby Developer, June 2013 -- Present_
+_Ruby Developer, June 2013 -- January 2015_
 
 Worked on a number of Ruby on Rails Engines delivering Quiz, Budget Planning, Mortgage Calculation and Sign in and Account creation functionality.
 
