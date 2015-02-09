@@ -1,5 +1,6 @@
 ---
 title: Rachel Graves, Curriculum Vitae
+layout: default
 ---
 
 # Rachel Graves, Curriculum Vitae

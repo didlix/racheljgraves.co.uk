@@ -1,7 +1,14 @@
-h1 Blog
+---
+layout: default
+---
 
-- blog.articles.each_with_index do |article, i|
-  h1.article == link_to article.title, article
-  span.date
-    == article.date.strftime('%b %e, %Y')
+<h1>Blog</h1>
 
+{% for post in site.posts %}
+
+  <h1 class="article"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+  <span class="date">
+    {{ post.date | date_to_string }}
+  </span>
+
+{% endfor %}
