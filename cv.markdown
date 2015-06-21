@@ -9,8 +9,6 @@ layout: default
 
 I am both an experienced software engineer and trained user–centred design consultant with a deep understanding of all aspects the product development lifecycle. I pride myself on being influential in affecting changes to processes that help centre product delivery around user needs.
 
-Projects which help people, specifically marginalised groups are of specific interest to me.
-
 I am an energetic and enthusiastic person with a bright personality. My hobbies include playing boardgames, cooking, cycling and organising socials.
 
 ## Education
@@ -21,7 +19,7 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ### Leadership
 
-I consider myself to have strong leadership & management potential. I have great common sense, enjoy organisation, implementing procedures, working with people and striving for efficiency.
+I consider myself to have strong leadership & management potential. I have great common sense, enjoy organisation, implementing procedures, working with people and striving for efficiency. I am confident running meetings.
 
 ### Development Skills
 
@@ -29,7 +27,7 @@ I have 13 years experience working with a variety of object-oriented programming
 
 ### Tools and Processes
 
-I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design and Evaluation, Project Management and so on.
+I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design and Evaluation, Project Management and so on. Additionally I am a huge advocate of SCRUM.
 
 ## Relevant Experience
 
@@ -38,7 +36,7 @@ _Ruby Developer, March 2015 -- Present_
 
 Notable roles during this position:
 
-- Feature lead on E-Commerce and Order Fulfillment System
+- Feature lead, architect and developer of an E-Commerce and Order Fulfillment System. Users of Babylon can now order pin-prick blood tests to their homes. Results are shown in the app.
 - Instigator of Retrospectives, Show & Tells and Friday Lunches
 - Interviewing Candidates
 - Mentoring Junior Ruby Developers
@@ -47,50 +45,67 @@ Notable roles during this position:
 ### Money Advice Service
 _Ruby Developer, June 2013 -- January 2015_
 
-Worked on a number of Ruby on Rails Engines delivering Quiz, Budget Planning, Mortgage Calculation and Sign in and Account creation functionality.
+- Lead architect and developer of a rails engine to allow the business to create customised financial timelines for different topics. For example "having a baby". Allowed developers to leverage its DSL (domain specific language) to easily add custom events based on a user's input.
+- Refactored the Mortgage Affordability Engine
 
 ### Ricardo-AEA
 _Lead Drupal Developer, October 2012 -- Janurary 2013_
 
-Worked with the project manager to provide technical analysis on a number of upcoming projects. As lead Drupal developer, I provided technical specifications to non-drupal developers. Moreover, I developed a site for the Environment Agency that allows them to produce 'quality protocol compliance assessment forms'  to deliver compliance reports to end users.
+- Provided technical analysis on a number of upcoming projects.
+- Produced technical specifications to developers used to working with different platforms.
+- Developed a bespoke application for the Environment Agency that allows them to produce bespoke 'quality protocol compliance assessment forms' to deliver compliance reports to end users.
 
 ### Comic Relief
 _PHP Developer, June 2012 -- September 2012_
 
-As part of the special projects team, I developed a back end system to process users' donations and marketing preferences submitted on Comic Relief's websites. I also implemented a behavior driven development (BDD) and testing suite, allowing the team to develop and test using user stories. Moreover, I advised the quality team, project manager and product owner on how to leverage the BDD methodology to produce higher quality user stories.
+As part of the special projects team, I:
+
+- Developed a private API to process users' donations and marketing preferences submitted on Comic Relief's websites.
+- Implemented a behavior driven development (BDD) and testing suite allowing the team to develop and test using user stories. Moreover
+- Advised our quality assurance, project manager and product owner on how to leverage the BDD methodology and produce higher quality user stories.
 
 ### Dachis Group
 _PHP Developer, September 2011 -- May 2012_
 
-Working with an exceptional team, I delivered two social business websites using Drupal 6, one for Red Bull and another for the African Forum for Agricultural Advisory Services (AFAS). On AFAS I was also the lead developer, scrum master and managed all business analysis, user stories and the product backlog.
+Working with an exceptional team, I:
 
-I organised internal 'presentation by example' and 'knowledge sharing' events, and conducted research, business analysis and wrote a proposal for hosting community tech clinic sessions.
-
+- Delivered two bespoke 'social business platforms', one for Red Bull and another for the African Forum for Agricultural Advisory Services (AFAS).
+- Worked as lead developer, SCRUM master and managed all business analysis, user stories and the product backlog on AFAS.
+- Organised internal 'presentation by example' and 'knowledge sharing' events.
 
 ### Catch Digital
 _PHP Developer, June 2011 -- September 2011_
 
-For the charity, Scope, I helped develop a social drawing and story sharing website. Furthermore, I developed the system that allowed users to log in to either of Scope's websites with the same username and password, keeping all of their data synchronised. I also developed the moderation portal, so that site moderators could ensure content was suitable for Scope's audience.
-
-Additionally, I trained the other developers in using Drupal's collaborative development features which helped Catch with their larger, multi-developer projects.
+- Senior developer on a 'social drawing and story sharing website' project for Scope – the UK disability charity.
+- Developeed single sign-on system which allows users to login to either of Scope's websites with the same username and password, keeping all of their data synchronised.
+- Developed moderation portal
+- Provided consultation to the other developers in how to collaboratively work on the same Drupal projects (something Drupal was notoriously bad at due to heavy database reliance) which helped Catch with their larger, multi-developer projects.
 
 ### The Internet Team Ltd
 _Business Owner, 2008 -- 2010_
 
-For 2 years I ran a technical consultancy. Running my own business meant that I had to handle the full life cycle of a project, from business analysis and conception through to development and support. During this time I delivered an e-commerce site for AfterHours that integrated with their stock control systems. I also prototyped a system that imported their suppliers' stock feeds, allowing the purchasing team to quickly find which supplier was selling items at the lowest price.
+For 2 years I ran a technical consultancy. Running my own business meant that I had to handle the full life cycle of a project, from business analysis and conception through to development and support. During this time I:
 
-I provided systems administration services to a number of companies including Radar Music Videos and markanddan.com. My greatest achievement in this area was when I set-up and supported the servers that hosted a live chat with J.K. Rowling for the launch of one of her Harry Potter books, which had 70,000 visitors during the one-hour chat.
-
-For Orange Frog Design, I provided technical consultation and developed a number of websites, including an e-commerce site for a children's clothing company and a membership site for Clowns International.  In addition, I produced the code (and sometimes the designs) for a number of email marketing campaigns for Orange Frog's clients and provided the technology to manage lists, send the campaigns and view stats.
+- Delivered an e-commerce site for AfterHours with back-office integrations into their stock control systems.
+- Prototyped a system for AfterHours that imported their suppliers' stock and pricing feeds, allowing the purchasing team to quickly find which supplier was selling items at the lowest price or had stock.
+- Provided systems administration services to a number of companies including Radar Music Videos and markanddan.com. My greatest achievement in this area was when I set-up and supported the servers that hosted a live chat with J.K. Rowling for the launch of one of her Harry Potter books, which had 70,000 visitors during the one-hour chat.
+- For Orange Frog Design, I provided technical consultation and developed a number of websites, including an e-commerce site for a children's clothing company and a membership site for Clowns International.  In addition, I produced the code (and sometimes the designs) for a number of email marketing campaigns for Orange Frog's clients and provided the technology to manage lists, send the campaigns and view stats.
 
 ### BMB Ltd
-_PHP Developer & Systems Administrator, November 2006 -- May 2008_
+_PHP Developer & Hosting Systems Manager, November 2006 -- May 2008_
 
-My role at BMB was threefold. As a PHP developer, I worked on a number of data gathering and marketing websites. I also wrote an events management system used by General Motors for a number of their b2b events.
+- Developed bespoke events management system for General Motors events (including VXR Trackdays)
+- Moved the team from editing code on network shares to using Version Control (SVN) and Issue Tracking (Trac).
+- Implemented new team workflows and procedures around the new tools
+- Designed, Implemented and Supported a high availability hosting system to Big Yellow Storage, General Motors and Toucansurf handiling over 70,000 visists a day.
+- Designed the approach that the company used to sell hosting, which I championed, represented a significant organisational change for BMB.
 
-In addition to this, I also performed as a development process leader. This involved selecting and deploying an issue tracking system, standardising deployment processes and introducing source code version control across the team. This greatly reduced errors, streamlined workflow and helped improve the working environment, helping the team create better products.
+### Prior Experience
 
-Finally, I was responsible for designing, implementing, supporting and selling a new high-availability hosting offering, which I successfully sold to their clients: General Motors, Big Yellow Storage and Toucansurf. The approach that the company used, that I championed, represented a significant organisational change for BMB.
+- Systems Administration, Good Technology (now VML London)
+- Network Support Engineer, Scansafe (now owned by Cisco)
+- Systems Administrator, Cryoserver
+- Systems Administrator of all desktop, server and networking infastructure for ~100 users, facilities management. Auriga Europe Plc
 
 ## Volunteering
 
