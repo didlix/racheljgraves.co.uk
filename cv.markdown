@@ -21,7 +21,7 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ### Leadership
 
-I consider myself to have strong leadership& management potential. I have great common sense, enjoy organisation, implementing procedures, working with people and striving for efficiency.
+I consider myself to have strong leadership & management potential. I have great common sense, enjoy organisation, implementing procedures, working with people and striving for efficiency.
 
 ### Development Skills
 
