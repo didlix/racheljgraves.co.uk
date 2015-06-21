@@ -34,8 +34,6 @@ I am proficient with a number of tools and processes in Test-Driven Development,
 ## Babylon Health
 _Ruby Developer, March 2015 -- Present_
 
-Notable roles during this position:
-
 - Feature lead, architect and developer of an E-Commerce and Order Fulfillment System. Users of Babylon can now order pin-prick blood tests to their homes. Results are shown in the app.
 - Instigator of Retrospectives, Show & Tells and Friday Lunches
 - Interviewing Candidates
@@ -58,16 +56,12 @@ _Lead Drupal Developer, October 2012 -- Janurary 2013_
 ### Comic Relief
 _PHP Developer, June 2012 -- September 2012_
 
-As part of the special projects team, I:
-
 - Developed a private API to process users' donations and marketing preferences submitted on Comic Relief's websites.
 - Implemented a behavior driven development (BDD) and testing suite allowing the team to develop and test using user stories. Moreover
 - Advised our quality assurance, project manager and product owner on how to leverage the BDD methodology and produce higher quality user stories.
 
 ### Dachis Group
 _PHP Developer, September 2011 -- May 2012_
-
-Working with an exceptional team, I:
 
 - Delivered two bespoke 'social business platforms', one for Red Bull and another for the African Forum for Agricultural Advisory Services (AFAS).
 - Worked as lead developer, SCRUM master and managed all business analysis, user stories and the product backlog on AFAS.
