@@ -19,6 +19,10 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 ## Skills
 
+### Leadership
+
+I consider myself to have strong leadership& management potential. I have great common sense, enjoy organisation, implementing procedures, working with people and striving for efficiency.
+
 ### Development Skills
 
 I have 13 years experience working with a variety of object-oriented programming languages (Ruby, PHP) and with a number of frameworks and content management systems (Ruby on Rails, Sinatra, Padrino, Middleman, Drupal). I am also proficient in HTML and CSS.
@@ -28,6 +32,17 @@ I have 13 years experience working with a variety of object-oriented programming
 I am proficient with a number of tools and processes in Test-Driven Development, Behaviour-Driven Development, User–Centred Design and Evaluation, Project Management and so on.
 
 ## Relevant Experience
+
+## Babylon Health
+_Ruby Developer, March 2015 -- Present_
+
+Notable roles during this position:
+
+- Feature lead on E-Commerce and Order Fulfillment System
+- Instigator of Retrospectives, Show & Tells and Friday Lunches
+- Interviewing Candidates
+- Mentoring Junior Ruby Developers
+- SCRUM Advisor
 
 ### Money Advice Service
 _Ruby Developer, June 2013 -- January 2015_
@@ -76,3 +91,8 @@ My role at BMB was threefold. As a PHP developer, I worked on a number of data g
 In addition to this, I also performed as a development process leader. This involved selecting and deploying an issue tracking system, standardising deployment processes and introducing source code version control across the team. This greatly reduced errors, streamlined workflow and helped improve the working environment, helping the team create better products.
 
 Finally, I was responsible for designing, implementing, supporting and selling a new high-availability hosting offering, which I successfully sold to their clients: General Motors, Big Yellow Storage and Toucansurf. The approach that the company used, that I championed, represented a significant organisational change for BMB.
+
+## Volunteering
+
+- Greenpeace Key-Activist: Organised awareness & fundraiser events. Lead teams during actions.
+- The Field: Local community project. Assist in building a community space and garden. Helping to set-up a community cafe, organising fundraisers. Recently joined the admin list.
