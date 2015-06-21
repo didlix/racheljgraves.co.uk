@@ -21,7 +21,6 @@ Studying a MSc in Human-Centred Systems at City University (part-time).
 
 Leading and managing feature teams. Scrum & Development coach.
 
-
 ### Development Skills
 
 I have 13 years experience working with a variety of object-oriented programming languages, frameworks and content management systems up to senior level.
@@ -48,28 +47,28 @@ _Ruby Developer, June 2013 -- January 2015_
 - Refactored the Mortgage Affordability Engine
 
 ### Ricardo-AEA
-_Lead Drupal Developer, October 2012 -- Janurary 2013_
+_Contract Lead Drupal Developer, October 2012 -- Janurary 2013_
 
 - Provided technical analysis on a number of upcoming projects.
 - Produced technical specifications to developers used to working with different platforms.
 - Developed a bespoke application for the Environment Agency that allows them to produce bespoke 'quality protocol compliance assessment forms' to deliver compliance reports to end users.
 
 ### Comic Relief
-_PHP Developer, June 2012 -- September 2012_
+_Contract PHP Developer, June 2012 -- September 2012_
 
 - Developed a private API to process users' donations and marketing preferences submitted on Comic Relief's websites.
 - Implemented a behavior driven development (BDD) and testing suite allowing the team to develop and test using user stories. Moreover
 - Advised our quality assurance, project manager and product owner on how to leverage the BDD methodology and produce higher quality user stories.
 
 ### Dachis Group
-_PHP Developer, September 2011 -- May 2012_
+_Contract PHP Developer, September 2011 -- May 2012_
 
 - Delivered two bespoke 'social business platforms', one for Red Bull and another for the African Forum for Agricultural Advisory Services (AFAS).
 - Worked as lead developer, SCRUM master and managed all business analysis, user stories and the product backlog on AFAS.
 - Organised internal 'presentation by example' and 'knowledge sharing' events.
 
 ### Catch Digital
-_PHP Developer, June 2011 -- September 2011_
+_Contract PHP Developer, June 2011 -- September 2011_
 
 - Senior developer on a 'social drawing and story sharing website' project for Scope – the UK disability charity.
 - Developeed single sign-on system which allows users to login to either of Scope's websites with the same username and password, keeping all of their data synchronised.
