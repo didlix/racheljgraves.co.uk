@@ -56,7 +56,7 @@ _Contract Lead Drupal Developer, October 2012 -- Janurary 2013_
 ### Comic Relief
 _Contract PHP Developer, June 2012 -- September 2012_
 
-- Developed a private API to process users' donations and marketing preferences submitted on Comic Relief's websites.
+- Developed a private API to process users' donations and marketing preferences across Comic Relief's websites.
 - Implemented a behavior driven development (BDD) and testing suite allowing the team to develop and test using user stories. Moreover
 - Advised our quality assurance, project manager and product owner on how to leverage the BDD methodology and produce higher quality user stories.
 
@@ -65,7 +65,7 @@ _Contract PHP Developer, September 2011 -- May 2012_
 
 - Delivered two bespoke 'social business platforms', one for Red Bull and another for the African Forum for Agricultural Advisory Services (AFAS).
 - Worked as lead developer, SCRUM master and managed all business analysis, user stories and the product backlog on AFAS.
-- Organised internal 'presentation by example' and 'knowledge sharing' events.
+- Organised internal 'presentation by example' and knowledge sharing events.
 
 ### Catch Digital
 _Contract PHP Developer, June 2011 -- September 2011_
