@@ -7,6 +7,20 @@ html {
   box-sizing: border-box;
 }
 
+main {
+
+}
+
+section.-background {
+  background: lightgrey;
+}
+
+.container {
+  width: 85%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .-proto-picture {
   background: grey;
   width: 200px;
@@ -34,11 +48,6 @@ html {
   flex-grow: 1;
 }
 
-main {
-  width: 85%;
-  max-width: 960px;
-  margin: 0 auto;
-}
 
 h1 {
   font-size: 1.7rem;
@@ -62,7 +71,7 @@ h2:after {
 
 h3 {
   font-size: 1.3rem;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0  ;
 }
 
 h4 {
@@ -97,6 +106,13 @@ p {
   width: 60%;
 }
 
-div.col div div {
+div.story div {
   max-width: 50%;
+  min-width: 200px;
+}
+.story {
+  max-width: 50%;
+}
+.phase .row {
+  flex-direction: row-reverse;
 }
