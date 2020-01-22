@@ -9,14 +9,16 @@ html {
 
 .-proto-picture {
   background: grey;
-  width: 100%;
+  width: 200px;
   height: 200px;
   border-radius: 5px;
+  margin-top: 1.2rem;
 }
 
 .-flexbox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
 
 }
 
@@ -24,8 +26,16 @@ html {
   flex-wrap: wrap;
 }
 
+.-grow2 {
+  flex-grow: 2;
+}
+
+.-grow1 {
+  flex-grow: 1;
+}
+
 main {
-  width: 95%;
+  width: 85%;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -52,7 +62,7 @@ h2:after {
 
 h3 {
   font-size: 1.3rem;
-  margin-top: 1.2rem;
+  margin: 1.2rem 0;
 }
 
 h4 {
@@ -66,13 +76,14 @@ p {
   margin: 1rem 0;
   font-weight: 300;
   font-size: 0.95rem;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .col {
-  width: 200px;
+  /*width: 400px;*/
   padding: 0 10px 0 20px;
   margin-right: 20px;
+  max-width: 60%;
 }
 
 .-dashed-border-left {
@@ -80,4 +91,12 @@ p {
   border-style: dashed;
   border-color: grey;
   padding-left: 10px;
+}
+
+.-half {
+  width: 60%;
+}
+
+div.col div div {
+  max-width: 50%;
 }
