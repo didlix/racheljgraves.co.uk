@@ -40,3 +40,16 @@ p {
   font-size: 0.95rem;
   line-height: 1.2rem;
 }
+
+.col {
+ 
+  padding: 0 10px 0 20px;
+  margin-right: 20px;
+}
+
+.-dashed-border-left {
+  border-left: 1px;
+  border-style: dashed;
+  border-color: grey;
+  padding-left: 10px;
+}
