@@ -1,8 +1,8 @@
 ---
-layout: blogpost
-title: "GA Project"
+layout: portfolio
+title: "Will"
 date: 2020-01-01
-tags: Portfolio, UX, 
+categories: casestudy
 ---
 
 Congested travel is difficult for people with anxiety, there aren't apps out there to help them.

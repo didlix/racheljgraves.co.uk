@@ -96,27 +96,16 @@ layout: portfolio
 		<h2>Portfolio</h2>
 		<div class="-grid">
 
-			<div class="casestudy">
-				<h3>Will</h3>
-				<div class="-proto-picture -max-width"></div>
-			</div> <!-- div.casestudy -->
-			<div class="casestudy">
-				<h3>Will</h3>
-				<div class="-proto-picture -max-width"></div>
-			</div> <!-- div.casestudy -->
-			<div class="casestudy">
-				<h3>Will</h3>
-				<div class="-proto-picture -max-width"></div>
-			</div> <!-- div.casestudy -->
-			<div class="casestudy">
-				<h3>Will</h3>
-				<div class="-proto-picture -max-width"></div>
-			</div> <!-- div.casestudy -->
-			<div class="casestudy">
-				<h3>Will</h3>
-				<div class="-proto-picture -max-width"></div>
-			</div> <!-- div.casestudy -->
-		</div>	<!-- div.container -->
+			{% for post in site.posts %}
+				{% if post.categories contains "casestudy" %}	
+					<div class="casestudy">
+						<h3>{{ post.title }}</h3>
+						<div class="-proto-picture -max-width"></div>
+					</div> <!-- div.casestudy -->
+				{% endif %}
+			{% endfor %}
+
+		</div>	<!-- div.-grid -->
 	</div>
 
 </section> <!-- section.portfolio -->
