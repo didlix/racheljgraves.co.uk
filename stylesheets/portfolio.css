@@ -11,6 +11,10 @@ main {
 
 }
 
+section {
+  padding: 40px 0;
+}
+
 section.-background {
   background: lightgrey;
 }
@@ -26,7 +30,6 @@ section.-background {
   width: 200px;
   height: 200px;
   border-radius: 5px;
-  margin-top: 1.2rem;
 }
 
 .-max-width {
@@ -36,20 +39,33 @@ section.-background {
 
 .-flexbox {
   display: flex;
-  justify-content: space-between;
   align-items: stretch;
+}
 
+.-flex-between {
+  justify-content: space-between;
 }
 
 .-flexwrap {
   flex-wrap: wrap;
 }
 
+.-flex-center {
+  justify-content: center;
+}
+
 .-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   /*grid-template-rows: 12px 12px 12px;*/
+}
+
+.-halfs {
+  grid-template-columns: 1fr 1fr;
+}
+
+.-thirds {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 1050px) { 
@@ -82,7 +98,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin-top: 1.3rem;
-  border-bottom: ;
+  margin-bottom: 1rem;
 }
 
 h2:after {
@@ -92,7 +108,6 @@ h2:after {
     padding-top: 10px; 
     border-bottom: 3px solid black; 
 }
-
 
 h3 {
   font-size: 1.3rem;
@@ -105,12 +120,27 @@ h4 {
   font-family: Raleway;
 }
 
+a {
+  text-decoration: none;
+  color: hsla(27, 86%, 64%, 1); 
+}
+
+a:hover {
+  color: hsla(27, 86%, 44%, 1);
+}
+
 p {
   font-family: Raleway;
   margin: 1rem 0;
   font-weight: 300;
   font-size: 0.95rem;
   line-height: 1.5rem;
+}
+
+blockquote {
+  font-size: 2.5rem;
+  font-style: italic;
+  padding: 3rem 4rem;
 }
 
 .col {
@@ -146,3 +176,75 @@ div.story div {
   justify-content: space-evenly;
 }
 
+
+section.about p {
+  max-width: 380px;
+}
+
+.casestudy {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.education,
+.experience {
+  width: 48%;
+}
+.placement,
+.role {
+  min-width: 380px;
+  min-height: 65px;
+  margin-bottom: 10px;
+  /*width: 45%;*/
+  padding: 14px 11px;
+  background-color: lightgrey;
+}
+
+blockquote {
+  text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+blockquote:hover {
+ text-shadow: 0 4px 5px rgba(0,0,0,0.2); 
+}
+
+.placement,
+.role,
+.casestudy {
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.placement:hover,
+.role:hover,
+.casestudy:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.method {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-column-gap: 7px;
+}
+
+.method p {
+  margin: 0;
+}
+.method h3 {
+  margin: 0;
+}
+
+section.hero {
+  height: 100vh;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section.hero h1 {
+  font-size: 8rem;
+}
