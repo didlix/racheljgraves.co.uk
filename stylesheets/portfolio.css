@@ -29,6 +29,11 @@ section.-background {
   margin-top: 1.2rem;
 }
 
+.-max-width {
+  width: 100%;
+  min-width: 310px;
+}
+
 .-flexbox {
   display: flex;
   justify-content: space-between;
@@ -39,6 +44,26 @@ section.-background {
 .-flexwrap {
   flex-wrap: wrap;
 }
+
+.-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  /*grid-template-rows: 12px 12px 12px;*/
+}
+
+@media (max-width: 1050px) { 
+  .-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px) { 
+  .-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .-grow2 {
   flex-grow: 2;
@@ -116,3 +141,8 @@ div.story div {
 .phase .row {
   flex-direction: row-reverse;
 }
+
+.portfolio div.container div.-flexbox {
+  justify-content: space-evenly;
+}
+
