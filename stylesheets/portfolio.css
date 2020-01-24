@@ -1,6 +1,7 @@
 
 html {
   font-family: Lato;
+  font-size: 62.5%;
 }
 
 * {
@@ -12,7 +13,7 @@ main {
 }
 
 section {
-  padding: 40px 0;
+  padding: 4rem 0;
 }
 
 section.-background {
@@ -56,7 +57,7 @@ section.-background {
 
 .-grid {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 1rem;
   /*grid-template-rows: 12px 12px 12px;*/
 }
 
@@ -91,12 +92,11 @@ section.-background {
 
 
 h1 {
-  font-size: 1.7rem;
   margin-top: 1.4rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 3.1rem;
   margin-top: 1.3rem;
   margin-bottom: 1rem;
 }
@@ -110,7 +110,7 @@ h2:after {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 2.1rem;
   margin: 1.2rem 0  ;
 }
 
@@ -123,24 +123,29 @@ h4 {
 a {
   text-decoration: none;
   color: hsla(27, 86%, 64%, 1); 
+  transition: all .2s ease-in;
 }
 
 a:hover {
   color: hsla(27, 86%, 44%, 1);
 }
 
+p, li, a {
+  font-size: 1.7rem;
+}
+
 p {
   font-family: Raleway;
   margin: 1rem 0;
   font-weight: 300;
-  font-size: 0.95rem;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 }
 
 blockquote {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-style: italic;
   padding: 3rem 4rem;
+  line-height: 4rem;
 }
 
 .col {
@@ -185,11 +190,16 @@ section.about p {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
+  min-height: 100%;
 }
 
+.education:hover, .role:hover {
+  cursor: pointer;
+}
 .education,
 .experience {
   width: 48%;
+  min-width: 380px;
 }
 .placement,
 .role {
@@ -199,14 +209,9 @@ section.about p {
   /*width: 45%;*/
   padding: 14px 11px;
   background-color: hsla(33, 5%, 68%, 0.2);
-}
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
 
-blockquote {
-  text-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-blockquote:hover {
- text-shadow: 0 4px 5px rgba(0,0,0,0.2); 
 }
 
 .placement,
@@ -216,6 +221,8 @@ blockquote:hover {
   top: 0;
   transition: all .2s ease-in;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
 }
 
 .placement:hover,
@@ -227,8 +234,9 @@ blockquote:hover {
 
 .method {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 5fr;
   grid-column-gap: 7px;
+  max-width: 200px;
 }
 
 .method p {
@@ -238,6 +246,10 @@ blockquote:hover {
   margin: 0;
 }
 
+/*a:hover .method svg {
+  filter: drop-shadow(0 4px 5px rgba(0,0,0,0.2));
+}*/
+
 section.hero {
   height: 100vh;
   background-color: hsla(33, 5%, 68%, 0.2);
@@ -246,5 +258,40 @@ section.hero {
   justify-content: center;
 }
 section.hero h1 {
-  font-size: 8rem;
+  font-size: 13rem;
+}
+
+section.about div.-flexbox div.flexcol {
+  margin-right: 20px;
+}
+
+.method {
+  transition: all .2s ease-in;
+}
+.contact-icon {
+  height: 5rem;
+  width: 4rem;
+  transition: all .2s ease-in;
+}
+
+a:hover .contact-icon {
+  height: 5.5rem;
+  width: 4.5rem;
+}
+
+.method {
+  min-height: 5.5rem;
+}
+
+.casestudy {
+  background-color: #F9F9F9;
+  overflow: hidden;
+}
+
+.casestudy h3 {
+  padding: 1rem;
+}
+
+.casestudy .-proto-picture {
+  border-radius: 0;
 }

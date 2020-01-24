@@ -6,7 +6,7 @@ layout: portfolio
 <section class="hero">
 	<div class="container">
 		<h1>Rachel Graves</h1>
-		<p>UX Engineer, UX Designer, Specialty Coffee Expert</p>
+		<p>UX Engineer, UX Designer, Recovering Developer, Specialty Coffee Expert</p>
 		<nav>
 			<ul>
 				<li><a href="#about">About Me</a></li>
@@ -22,20 +22,19 @@ layout: portfolio
 <section class="about" id="about">
 	<div class="container">
 		<div class="-flexbox -flexwrap -flex-center">
-			<div class="-proto-picture" style="height: 18
-			rem;"></div>
+			<div class="-proto-picture flexcol" style="height: 18rem;"></div>
 				
-				<div>
-					<h2>About Me</h2>
-					<p>
-						I have two qualifications in specialty coffee. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-				</div>
+			<div class="flexcol">
+				<h2>About Me</h2>
+				<p>
+					I have two qualifications in specialty coffee. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
 		</div> <!-- .-flexbox .-flexwrap -->
 
 	</div> <!-- div.container -->
@@ -46,34 +45,50 @@ layout: portfolio
 	<div class="container">
 		<h2>Contact</h2>
 		<div class="-flexbox -flexwrap -flex-between">
-			<div class="method">
-				<div class="-proto-picture" style="width: 30px; height: 45px;"></div>
-				<div>
-					<h3>Twitter</h3>
-					<p>@didlix</p>
-				</div>
-			</div> <!-- div.method -->
-			<div class="method">
-				<div class="-proto-picture" style="width: 30px; height: 45px;"></div>
-				<div>
-					<h3>Twitter</h3>
-					<p>@didlix</p>
-				</div>
-			</div> <!-- div.method -->
-			<div class="method">
-				<div class="-proto-picture" style="width: 30px; height: 45px;"></div>
-				<div>
-					<h3>Twitter</h3>
-					<p>@didlix</p>
-				</div>
-			</div> <!-- div.method -->
-			<div class="method">
-				<div class="-proto-picture" style="width: 30px; height: 45px;"></div>
-				<div>
-					<h3>Twitter</h3>
-					<p>@didlix</p>
-				</div>
-			</div> <!-- div.method -->
+			<a href="https://twitter.com/@didlix">
+				<div class="method">
+					<div class="twitter contact-icon">
+						{% include twitter.html %}
+					</div>
+					<div>
+						<h3>Twitter</h3>
+						<p>@didlix</p>
+					</div>
+				</div> <!-- div.method -->
+			</a>
+			<a href="https://linkedin.com/in/racheljgraves/">
+				<div class="method">
+					<div class="linkedin contact-icon">
+						{% include linkedin.svg %}
+					</div>
+					<div>
+						<h3>LinkedIn</h3>
+						<p>@racheljgraves</p>
+					</div>
+				</div> <!-- div.method -->
+			</a>
+			<a href="tl:+447523986665">
+				<div class="method">
+					<div class="phone contact-icon">
+						{% include phone.svg %}
+					</div>
+					<div>
+						<h3>Phone</h3>
+						<p>+44 7523 986 665</p>
+					</div>
+				</div> <!-- div.method -->
+			</a>
+			<a href="mailto:rachel@didlix.net">
+				<div class="method">
+					<div class="email contact-icon">
+						{% include email.svg %}
+					</div>
+					<div>
+						<h3>Email</h3>
+						<p>rachel@didlix.net</p>
+					</div>
+				</div> <!-- div.method -->
+			</a>
 
 		</div> <!-- div.-flexbox.-flexwrap -->
 	</div> <!-- div.container -->
@@ -113,7 +128,7 @@ layout: portfolio
 	<div class="container">
 		<h2>Testominonials</h2>
 		<blockquote>
-			Rachel is the best person in the world, better than all the rest!
+			Rachel is the best pokemon trainer in London. Don't mess with her Pikachu!
 		</blockquote>
 	</div> <!-- div.container -->
 </section> <!-- section.testimonials -->
@@ -126,14 +141,15 @@ layout: portfolio
 			{% for post in site.posts %}
 				{% if post.categories contains "casestudy" %}	
 					
-					<div class="casestudy">
-						<h3>
-						  <a href="{{ post.url }}">
-						    {{ post.title }}
-						   </a>
-						</h3>
-						<div class="-proto-picture -max-width"></div>
-					</div> <!-- div.casestudy -->
+					<!-- <a href="{{ post.url }}"> -->
+					<a href="/portfolio.html">
+						<div class="casestudy">
+							<h3>
+							    {{ post.title }}
+							</h3>
+							<div class="-proto-picture -max-width"></div>
+						</div> <!-- div.casestudy -->
+					</a>
 				{% endif %}
 			{% endfor %}
 
