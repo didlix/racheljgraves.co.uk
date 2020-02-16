@@ -6,51 +6,43 @@ categories: casestudy
 ---
 
 
-# Casestudy: Will
+# Casestudy: Congestion Avoiding Journey Planner
+
+**Project Type:** Mobile Application Concept
+
+**Organisation:** General Assembly
 
 ## What
 
 Will is deeply upset by congestion when travelling by the underground. He would like to avoid it but isn’t able to with the apps that he uses. Will would go so far as to double his journey time to avoid the congestion encountered while commuting.
 
+Delays frequently occur during Will's comute. He doesn't have faith in the existing tools to inform him about those delays and how best to avoid the congestion that ensnares.
 
-### Define
+<quote>“I would rather take twice as long to not be in a completely rammed carriage where you can't even breathe.”</quote>
 
-#### User Interviews
+## Activities
 
-Will was interviewed  using a semi-structred set of questions.
+- User Interview
+- Task Analysis
+– Storyboarding
+– Experience Map
+– User Flow
+– Wireflow
+– Paper Prototyping
+– InVision Prototype
 
-#### Task Analysis
+## The Solution
 
-Using information from the interview I produced a step by step analysis of Will’s commute.
+A mobile application was designed and tested during a one week sprint. It empowers users to plan their journeys around congestion levels on the tube.
 
-#### Storyboard
+It includes:
 
-I turned the task analysis into a storyboard. This really helped create empathy with Will’s journey during design ideation.
-
-### Develop
-
-#### User Interviews
-
-#### Task Analysis
-
-### Diamond
-
-#### User Interviews
-
-#### Task Analysis
-
-### Dynamite
-
-#### User Interviews
-
-#### Task Analysis
-
+- A clickable paper prototype built in InVision
 
 ## Summary
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project effectively demonstrated the benefits of using low cost and fast methods of design to test ideas. By using paper prototypes I was able to quickly get feedback on the feasability of my proposed solution. Early testing also afforded the opportunity to make usability improvements . 
+
+The next steps for this project would be to test the concept with real people taking real journeys. During interviews my client said that he would potentially double his travel time to avoid congestion. This would need to be tested in order to know if people would make these choices. 
+
+This prototype didn't address Will's lack of information about delays to his journey. An additional sprint would provide the opportunity to ideate a solution.
