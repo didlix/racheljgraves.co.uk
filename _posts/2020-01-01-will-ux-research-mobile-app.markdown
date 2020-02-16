@@ -14,6 +14,8 @@ categories: casestudy
 
 ## What
 
+General Assembly asked me to interview my classmate Will about Travel. It was my job to identify pain points in his experience and then ideate and prototype a solution to solve those paints.
+
 Will is deeply upset by congestion when travelling by the underground. He would like to avoid it but isn’t able to with the apps that he uses. Will would go so far as to double his journey time to avoid the congestion encountered while commuting.
 
 Delays frequently occur during Will's comute. He doesn't have faith in the existing tools to inform him about those delays and how best to avoid the congestion that ensnares.
