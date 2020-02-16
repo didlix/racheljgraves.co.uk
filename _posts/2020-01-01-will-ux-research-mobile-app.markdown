@@ -37,11 +37,14 @@ A mobile application was designed and tested during a one week sprint. It empowe
 
 It includes:
 
+- Experience maps and Storyboards to communicate the problem
 - A clickable paper prototype built in InVision
 
 ## Summary
 
-This project effectively demonstrated the benefits of using low cost and fast methods of design to test ideas. By using paper prototypes I was able to quickly get feedback on the feasability of my proposed solution. Early testing also afforded the opportunity to make usability improvements . 
+This project effectively demonstrated the benefits of using low cost and fast methods of design to test ideas. By using paper prototypes I was able to quickly get feedback on the feasability of my proposed solution. Early testing also afforded the opportunity to make usability improvements. 
+
+Using a storyboard was an effective way to put Will's journey in a context easier to emphathise with. Being able to show people Will's journey helped remove people's own biases from their own imaginations.
 
 The next steps for this project would be to test the concept with real people taking real journeys. During interviews my client said that he would potentially double his travel time to avoid congestion. This would need to be tested in order to know if people would make these choices. 
 
