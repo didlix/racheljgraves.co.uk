@@ -3,6 +3,7 @@ layout: portfolio
 title: "Will"
 date: 2020-01-01
 categories: casestudy
+thumb: will.thumb.png
 ---
 
 
