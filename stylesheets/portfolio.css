@@ -204,7 +204,7 @@ footer {
 
 }
 
-section.about p, footer p {
+section.about p, footer p, .-col {
   max-width: 480px;
 }
 
