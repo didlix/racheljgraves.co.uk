@@ -1,0 +1,24 @@
+<section class="portfolio" id="portfolio">
+	<div class="container">
+		<h2>Portfolio</h2>
+		<div class="-grid -thirds">
+
+			{% for post in site.posts %}
+				{% if post.categories contains "casestudy" %}	
+					
+					<a href="{{ post.url }}">
+					<!-- <a href="/portfolio.html"> -->
+						<div class="casestudy">
+							<h3>
+							    {{ post.title }}
+							</h3>
+							<img src="/images/{{ post.thumb }}" />
+						</div> <!-- div.casestudy -->
+					</a>
+				{% endif %}
+			{% endfor %}
+
+		</div>	<!-- div.-grid -->
+	</div>
+
+</section> <!-- section.portfolio -->

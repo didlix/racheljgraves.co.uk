@@ -19,7 +19,7 @@ layout: default
 			<div class="flexcol">
 				<h2>About Me</h2>
 				<p>
-					Rachel is a User Experience Designer based in London. She has over a decade of experience in Technology and has previously worked as a Software Engineer, and Systems Administrator. Brands, Comic Relief, Money Advice Service, Babylon Health. She has worked in all stages of a project from discovery, planning and delivery. Leading workshops. Mentoring junior members of her team, Rachel is an instigator and has helped startups implement modern team working practices, like Slack, Scrum, Other such things.
+					Rachel is a User Experience Designer based in London. She has over a decade of experience working in Technology and has previously worked as a Software Engineer and Systems Administrator. Brands, Comic Relief, Money Advice Service, Babylon Health. She has worked in all stages of a project from discovery, planning and delivery. Leading workshops. Mentoring junior members of her team, Rachel is an instigator and has helped startups implement modern team working practices, like Slack, Scrum, Other such things.
 				</p>
 			</div>
 		</div> <!-- .-flexbox .-flexwrap -->
@@ -81,6 +81,9 @@ layout: default
 	</div> <!-- div.container -->
 </section> <!-- section.contact -->
 
+
+{% include portfolio.html %}
+
 <section class="experience-education" id="education">
 	<div class="container -flexbox -flexwrap -flex-between">
 		<div class="education">
@@ -112,28 +115,3 @@ layout: default
 </section> <!-- section.experience-education -->
 
 <!-- include testimonials -->
-
-<section class="portfolio" id="portfolio">
-	<div class="container">
-		<h2>Portfolio</h2>
-		<div class="-grid -thirds">
-
-			{% for post in site.posts %}
-				{% if post.categories contains "casestudy" %}	
-					
-					<a href="{{ post.url }}">
-					<!-- <a href="/portfolio.html"> -->
-						<div class="casestudy">
-							<h3>
-							    {{ post.title }}
-							</h3>
-							<img src="/images/{{ post.thumb }}" />
-						</div> <!-- div.casestudy -->
-					</a>
-				{% endif %}
-			{% endfor %}
-
-		</div>	<!-- div.-grid -->
-	</div>
-
-</section> <!-- section.portfolio -->
