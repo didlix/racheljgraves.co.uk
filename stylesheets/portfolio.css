@@ -73,17 +73,7 @@ section.-background {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 1050px) { 
-  .-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media (max-width: 750px) { 
-  .-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 
 .-grow2 {
@@ -108,7 +98,7 @@ h2 {
 h2:after {
     content: "";
     display: block;
-    width: 5%;
+    width: 50px;
     padding-top: 10px; 
     border-bottom: 3px solid black; 
 }
@@ -139,14 +129,22 @@ p, li, a {
 }
 
 ul, li {
-  font-weight: 100;
+  font-family: Raleway;
+}
+
+main.casestudy img {
+    margin: 1rem 0;
+}
+
+p, li {
+  font-family: Raleway;
+  font-weight: 300;
+  line-height: 3rem;
+  max-width: 680px;
 }
 
 p {
-  font-family: Raleway;
-  margin: 1rem 0;
-  font-weight: 300;
-  line-height: 2.5rem;
+  margin: 0 0 3rem 0;
 }
 
 blockquote {
@@ -208,12 +206,14 @@ section.about p, footer p, .-col {
   max-width: 480px;
 }
 
-.casestudy {
+section.portfolio .casestudy {
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
   min-height: 100%;
 }
+
+
 
 .education:hover, .role:hover {
   cursor: pointer;
@@ -221,11 +221,11 @@ section.about p, footer p, .-col {
 .education,
 .experience {
   width: 48%;
-  min-width: 380px;
+  min-width: 350px;
 }
 .placement,
 .role {
-  min-width: 380px;
+  min-width: 200px;
   min-height: 65px;
   margin-bottom: 10px;
   /*width: 45%;*/
@@ -238,7 +238,7 @@ section.about p, footer p, .-col {
 
 .placement,
 .role,
-.casestudy {
+section.portfolio .casestudy {
   position: relative;
   top: 0;
   transition: all .2s ease-in;
@@ -249,7 +249,7 @@ section.about p, footer p, .-col {
 
 .placement:hover,
 .role:hover,
-.casestudy:hover {
+section.portfolio .casestudy:hover {
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
@@ -335,3 +335,79 @@ a:hover .contact-icon {
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+.avatar-small {
+  background-image: url('/images/racheljgraves.avatar-small.jpg');
+  width: 150px;
+  height: 150px;
+  background-size: auto;
+}
+
+.-columnreverse {
+  flex-direction: column-reverse;
+}
+
+main.casestudy img {
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  /*grid-column-gap: 7px;*/
+  justify-content: stretch;
+  /*max-width: 200px;*/
+}
+
+/*.portfolio-grid img:first-of-type {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 660px;
+  
+  width: auto; height: auto;
+}*/
+
+.portfolio-grid img:first-of-type {
+  grid-row-start: span 2;
+  max-width: 90%;
+}
+
+
+.portfolio-grid img {
+  max-width: 90%;
+}
+
+@media (max-width: 1050px) { 
+  .-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px) { 
+  .-grid, .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  section.hero h1 {
+    font-size: 4rem;
+  }
+  .casestudy img {
+    max-width:100%;
+  }
+
+  div.education, div.experience {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  section.about div.-flexbox div.flexcol {
+    margin-right: 0px;
+  }
+  section.-fullscreen, section.hero {
+    height: auto;
+  }
+}
+
