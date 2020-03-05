@@ -87,6 +87,7 @@ section.-background {
 
 h1 {
   margin-top: 1.4rem;
+  line-height: 20rem;
 }
 
 h2 {
@@ -147,12 +148,16 @@ p {
   margin: 0 0 3rem 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 blockquote {
   font-family: 'Raleway';
   font-size: 4rem;
   font-style: italic;
   padding: 3rem 4rem;
-  line-height: 4rem;
+  line-height: 7rem;
 }
 
 blockquote:after {
@@ -274,7 +279,7 @@ section.portfolio .casestudy:hover {
 }*/
 
 section.hero, section.-fullscreen {
-  height: 100vh;
+  min-height: 100vh;
     display: flex;
   flex-direction: column;
   justify-content: center;
@@ -382,13 +387,21 @@ main.casestudy img {
   max-width: 90%;
 }
 
+.activities .flexcol {
+  min-width: 200px;
+}
+
 @media (max-width: 1050px) { 
   .-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  main.casestudy img {
+    margin-bottom: 30px;
+  }
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 500px) { 
   .-grid, .portfolio-grid {
     grid-template-columns: 1fr;
   }
@@ -416,16 +429,29 @@ main.casestudy img {
     font-size: 2.5rem;
   }
 
+  ul, h1, main.casestudy img {
+    margin-bottom: 30px;
+  }
+
+}
+
+footer .personal-statement h2:after {
+  margin-bottom: 30px;
+}
+
+
   footer div.avatar {
     margin-left: auto;
     margin-right: auto;
   }
-  footer h2:after {
+  footer div.personal-statement h2:after {
     margin-left: auto;
     margin-right: auto;
   }
-  footer h2, footer p {
+  footer h2 {
     text-align: center;
   }
-}
 
+  footer div.contact h2 {
+    text-align: left;
+  }

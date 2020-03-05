@@ -32,58 +32,8 @@ layout: default
 </section> <!-- section.about -->
 
 <section class="contact">
-	<div class="container">
-		<h2>Contact</h2>
-		<div class="-flexbox -flexwrap -flex-between">
-			<a href="https://twitter.com/@didlix">
-				<div class="method">
-					<div class="twitter contact-icon">
-						{% include twitter.html %}
-					</div>
-					<div>
-						<h3>Twitter</h3>
-						<p>@didlix</p>
-					</div>
-				</div> <!-- div.method -->
-			</a>
-			<a href="https://linkedin.com/in/racheljgraves/">
-				<div class="method">
-					<div class="linkedin contact-icon">
-						{% include linkedin.svg %}
-					</div>
-					<div>
-						<h3>LinkedIn</h3>
-						<p>@racheljgraves</p>
-					</div>
-				</div> <!-- div.method -->
-			</a>
-			<a href="tl:+447523986665">
-				<div class="method">
-					<div class="phone contact-icon">
-						{% include phone.svg %}
-					</div>
-					<div>
-						<h3>Phone</h3>
-						<p>+44 7523 986 665</p>
-					</div>
-				</div> <!-- div.method -->
-			</a>
-			<a href="mailto:rachel@didlix.net">
-				<div class="method">
-					<div class="email contact-icon">
-						{% include email.svg %}
-					</div>
-					<div>
-						<h3>Email</h3>
-						<p>hello@racheljgraves.co.uk</p>
-					</div>
-				</div> <!-- div.method -->
-			</a>
-
-		</div> <!-- div.-flexbox.-flexwrap -->
-	</div> <!-- div.container -->
+	{% include contact.html %}
 </section> <!-- section.contact -->
-
 
 {% include portfolio.html %}
 
