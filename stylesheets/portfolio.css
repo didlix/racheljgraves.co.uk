@@ -73,6 +73,7 @@ section.-background {
 .-center {
    grid-template-columns: 1fr;
    justify-content: center;
+   align-items: center;
 }
 
 .-center div {
@@ -186,6 +187,7 @@ p {
 
 img {
   max-width: 100%;
+  max-height: 80vh;
 }
 
 blockquote {
@@ -463,6 +465,8 @@ p em:first-of-type {
   .-left div, .-center div, .-right div {
     justify-self: center;
   }
+
+
 
   .-left div:last-of-type {
     grid-row-start: 1;
