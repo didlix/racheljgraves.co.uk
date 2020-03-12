@@ -74,10 +74,11 @@ section.-background {
    grid-template-columns: 1fr;
    justify-content: center;
    align-items: center;
+
 }
 
 .-center div {
-  align-self: center;
+  justify-self: center;
 }
 .-halfs {
   grid-template-columns: 1fr 1fr;
@@ -403,6 +404,7 @@ a:hover .contact-icon {
   width: 150px;
   height: 150px;
   background-size: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .-columnreverse {
@@ -450,6 +452,8 @@ p em:first-of-type {
   font-size: 8rem;
   line-height: 8rem;
 }
+
+
 
 @media (max-width: 1050px) { 
   .-grid {
