@@ -293,7 +293,7 @@ footer {
 
 }
 
-section.about p, footer p, .-col {
+section.about p, footer p {
   max-width: 480px;
 }
 
@@ -353,7 +353,7 @@ section.portfolio .casestudy:hover {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-column-gap: 7px;
-  max-width: 200px;
+  max-width: 20rem;
 }
 
 .method p {
@@ -395,13 +395,13 @@ section.hero h1 {
 section.casehero h1 {
   font-size: 6rem;
   line-height: 10rem;
-  padding-right: 100px;
+  padding-right: 10rem;
 }
 
 
 
 section.about div.-flexbox div.flexcol {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .method {
@@ -471,7 +471,7 @@ main.casestudy img {
 }
 
 .activities .flexcol {
-  min-width: 200px;
+  min-width: 20rem;
 }
 
 /*.flexcol {
@@ -513,10 +513,14 @@ p em:first-of-type {
 }
 
 @media (max-width: 500px) { 
+  .-col {
+    max-width: 4.1rem;  
+  }
+  
   .-grid, .-left, .-right, .portfolio-grid {
     grid-template-columns: 1fr;
   }
-  section.hero h1 {
+  section.hero h1, section.casehero h1 {
     font-size: 4rem;
   }
   .casestudy img,
@@ -544,6 +548,35 @@ p em:first-of-type {
     margin-bottom: 30px;
   }
 
+  h2 {
+    margin-top: 7rem;
+  }
+
+  .hero .contact {
+    margin-top: 8rem;
+  }
+  .contact a {
+    margin-top: 1rem;
+  }
+
+  .contact a:last-of-type {
+    margin-top: 3rem;
+  }
+
+}
+
+@media (max-width: 375px) { 
+  section.casehero {
+    margin-top: 10rem;
+  }
+  .-col {
+    max-width: 30rem;
+  }
+
+
+  header div.container {
+    height: 100px;
+  }
 }
 
 footer .personal-statement h2:after {
