@@ -8,13 +8,15 @@ layout: default
 		<h1>Rachel J Graves</h1>
 		<p>UX Engineer, UX Designer, Recovering Developer, Specialty Coffee Expert</p>
 		{% include _nav.html %}
+		{% include contact.html %}
 	</div>
 </section>
 
 <section class="about" id="about">
 	<div class="container">
 		<div class="-flexbox -flexwrap -flex-evenly">
-			<div class="-proto-picture flexcol avatar"></div>
+			<div class="flexcol"><div class="avatar"></div>
+		</div>
 				
 			<div class="flexcol">
 				<h2>About Me</h2>
@@ -30,10 +32,6 @@ layout: default
 	</div> <!-- div.container -->
 
 </section> <!-- section.about -->
-
-<section class="contact">
-	{% include contact.html %}
-</section> <!-- section.contact -->
 
 {% include portfolio.html %}
 

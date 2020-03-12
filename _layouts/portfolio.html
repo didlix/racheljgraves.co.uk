@@ -3,10 +3,14 @@
   {% include head.html %}
   <body>
 
+    <header>
+      <div class="container">
+        <span class="header">Rachel J Graves</span> <span><a href="/">Home</a> | <a href="#contact">Contact</a></span>
+      </div>
+    </header>
+
     <main class="casestudy">
-
          {{ content }}
-
     </main>
 
     <footer class="-greybg">
@@ -15,7 +19,7 @@
         <div class="-flexbox -flexwrap -flex-evenly personal-statement">
           
           <div class="flexcol">
-            <div class="-proto-picture avatar avatar-small"></div>
+            <div class="avatar"></div>
             <h2>Rachel J Graves</h2> 
           </div>
           <div class="flexcol">
@@ -24,9 +28,9 @@
             <p>She is interested in products that promote better standards of living, health and wellbeing, through healthcare, government or finance. She is interested in inclusive research and design and believes that designing for people of all backgrounds and abilities helps produce better products for everyone. </p>
           </div>
 
+          {% include contact.html %}
         </div>
 
-        {% include contact.html %}
 
       </div>
     </footer>
