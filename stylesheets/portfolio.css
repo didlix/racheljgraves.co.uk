@@ -1,6 +1,6 @@
 
 html {
-  font-family: Lato;
+  font-family: Raleway;
   font-size: 62.5%;
 }
 
@@ -12,8 +12,59 @@ main {
 
 }
 
+.avatar {
+  background-image: url('/images/racheljgraves.avatar.jpg');
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+}
+
+header .avatar {
+  background-image: url('/images/racheljgraves.avatar-tiny.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 90px;
+  height: 90px;
+}
+
+footer .avatar {
+  background-image: url('/images/racheljgraves.avatar-small.jpg');
+  width: 150px;
+  height: 150px;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
+  font-family: Raleway;
+}
+
 section, footer {
   padding: 4rem 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+}
+
+header .container a {
+  /*align-self: flex-end;*/
+}
+
+header span.header {
+  font-size: 3rem;
+  margin-right: 5rem;
 }
 
 section.-background {
@@ -24,13 +75,6 @@ section.-background {
   width: 85%;
   max-width: 960px;
   margin: 0 auto;
-}
-
-.-proto-picture {
-  background: grey;
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
 }
 
 .-max-width {
@@ -59,12 +103,27 @@ section.-background {
   justify-content: space-evenly;
 }
 
-.-grid {
+.-left, .-right, .-grid, .-center {
   display: grid;
-  grid-gap: 1rem;
-  /*grid-template-rows: 12px 12px 12px;*/
+  grid-gap: 5rem;
+} 
+
+.-left {
+  grid-template-columns: 2fr 1fr;
+}
+.-right {
+  grid-template-columns: 1fr 2fr;
+}
+.-center {
+   grid-template-columns: 1fr;
+   justify-content: center;
+   align-items: center;
+
 }
 
+.-center div {
+  justify-self: center;
+}
 .-halfs {
   grid-template-columns: 1fr 1fr;
 }
@@ -85,6 +144,10 @@ section.-background {
 }
 
 
+h1, h2, h3 {
+  font-family: Martel;
+}
+
 h1 {
   margin-top: 1.4rem;
   line-height: 20rem;
@@ -96,12 +159,22 @@ h2 {
   margin-bottom: 1rem;
 }
 
-h2:after {
+ol li {
+  list-style-type: number;
+
+}
+
+h2:after, 
+section.casehero h1:after {
     content: "";
     display: block;
     width: 50px;
     padding-top: 10px; 
     border-bottom: 1px solid lightgrey; 
+}
+
+section.casehero h1:after {
+  margin: 0 auto;
 }
 
 h3 {
@@ -129,8 +202,20 @@ p, li, a {
   font-size: 1.7rem;
 }
 
+ul li {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 3.5rem;
+  max-width: 520px;
+}
+
+strong {
+
+  font-weight: bold;
+}
+
 ul, li {
-  font-family: Raleway;
 }
 
 main.casestudy img {
@@ -138,10 +223,9 @@ main.casestudy img {
 }
 
 p, li {
-  font-family: Raleway;
   font-weight: 300;
   line-height: 3rem;
-  max-width: 680px;
+  max-width: 620px;
 }
 
 p {
@@ -150,6 +234,7 @@ p {
 
 img {
   max-width: 100%;
+  max-height: 80vh;
 }
 
 blockquote {
@@ -210,6 +295,10 @@ footer {
 
 section.about p, footer p, .-col {
   max-width: 480px;
+}
+
+.-col {
+  max-width: 580px;
 }
 
 section.portfolio .casestudy {
@@ -278,14 +367,20 @@ section.portfolio .casestudy:hover {
   filter: drop-shadow(0 4px 5px rgba(0,0,0,0.2));
 }*/
 
-section.hero, section.-fullscreen {
+section.hero, 
+section.-fullscreen, 
+section.casehero {
   min-height: 100vh;
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
-section.hero, .-greybg {
+section.hero, .-greybg, section.-fullscreen:nth-child(even) {
     background-color: hsla(33, 5%, 68%, 0.2);
+}
+
+section.-fullscreen:nth-child(even) {
+
 }
 
 section.hero {
@@ -294,8 +389,16 @@ section.hero {
   justify-content: center;
 }
 section.hero h1 {
-  font-size: 13rem;
+  font-size: 12rem;
 }
+
+section.casehero h1 {
+  font-size: 6rem;
+  line-height: 10rem;
+  padding-right: 100px;
+}
+
+
 
 section.about div.-flexbox div.flexcol {
   margin-right: 20px;
@@ -332,22 +435,7 @@ a:hover .contact-icon {
   border-radius: 0;
 }
 
-.avatar {
-  background-image: url('/images/racheljgraves.avatar.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
 
-.avatar-small {
-  background-image: url('/images/racheljgraves.avatar-small.jpg');
-  width: 150px;
-  height: 150px;
-  background-size: auto;
-}
 
 .-columnreverse {
   flex-direction: column-reverse;
@@ -360,8 +448,8 @@ main.casestudy img {
 
 
 .portfolio-grid {
-  display: grid;
-  grid-template-columns: 66% 33%;
+  display: flex;
+  grid-template-columns: 50% 50%;
   /*grid-column-gap: 7px;*/
   justify-content: stretch;
   /*max-width: 200px;*/
@@ -377,11 +465,6 @@ main.casestudy img {
   width: auto; height: auto;
 }*/
 
-.portfolio-grid img:first-of-type {
-  grid-row-start: span 2;
-  max-width: 90%;
-}
-
 
 .portfolio-grid img {
   max-width: 90%;
@@ -391,9 +474,37 @@ main.casestudy img {
   min-width: 200px;
 }
 
+/*.flexcol {
+  min-width: 50%;
+}*/
+
+p em:first-of-type {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+
+
 @media (max-width: 1050px) { 
   .-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .-left, .-right {
+     grid-template-columns: 1fr; 
+     justify-content: center;
+     align-content: center;
+  }
+
+  .-left div, .-center div, .-right div {
+    justify-self: center;
+  }
+
+
+
+  .-left div:last-of-type {
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
 
   main.casestudy img {
@@ -402,7 +513,7 @@ main.casestudy img {
 }
 
 @media (max-width: 500px) { 
-  .-grid, .portfolio-grid {
+  .-grid, .-left, .-right, .portfolio-grid {
     grid-template-columns: 1fr;
   }
   section.hero h1 {
