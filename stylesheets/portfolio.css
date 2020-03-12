@@ -514,7 +514,7 @@ p em:first-of-type {
 
 @media (max-width: 500px) { 
   .-col {
-    max-width: 4.1rem;  
+    max-width: 40.1rem;  
   }
   
   .-grid, .-left, .-right, .portfolio-grid {
@@ -570,7 +570,7 @@ p em:first-of-type {
     margin-top: 10rem;
   }
   .-col {
-    max-width: 350px;
+    max-width: 30.5rem;
   }
 
 
@@ -580,11 +580,7 @@ p em:first-of-type {
 
 }
 
-@media (max-width: 400px) { 
-.-col {
-    max-width: 300px;
-  }
-}
+
 
 
 
