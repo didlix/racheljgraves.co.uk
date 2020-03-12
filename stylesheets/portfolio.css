@@ -370,7 +370,6 @@ section.portfolio .casestudy:hover {
 section.hero, 
 section.-fullscreen, 
 section.casehero {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -483,7 +482,17 @@ p em:first-of-type {
   line-height: 8rem;
 }
 
+section.hero {
+    min-height: 100vh;
+}
 
+@media (min-width: 500px) {
+  section.hero, 
+  section.-fullscreen, 
+  section.casehero {
+    min-height: 100vh;
+  }
+}
 
 @media (max-width: 1050px) { 
   .-grid {
