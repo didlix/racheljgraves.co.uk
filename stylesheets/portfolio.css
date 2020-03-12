@@ -565,19 +565,29 @@ p em:first-of-type {
 
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 500px) { 
   section.casehero {
     margin-top: 10rem;
   }
   .-col {
-    max-width: 30rem;
+    max-width: 350px;
   }
 
 
   header div.container {
     height: 100px;
   }
+
 }
+
+@media (max-width: 400px) { 
+.-col {
+    max-width: 300px;
+  }
+}
+
+
+
 
 footer .personal-statement h2:after {
   margin-bottom: 30px;
