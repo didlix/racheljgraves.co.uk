@@ -52,19 +52,17 @@ layout: default
 		</div> <!-- div.education -->
 		<div class="experience" id="experience">
 			<h2>Experience</h2>
-			<div class="experience">
-
 
 			{% for post in site.posts %}
 				{% if post.categories contains "experience" %}		
-				<div class="placement">
+				<div class="role">
 					<h3>{{ post.title }}</h3>
 					<p>{{ post.location }}</p>
 				</div>	<!-- div.role -->
 				{% endif %}
 			{% endfor %}
-
 		</div> <!-- div.experience -->
+	</div> <!-- div.container -->
+</section> <!-- section.experience-education -->
 
-	</div>
-</section>
+<!-- include testimonials -->
