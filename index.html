@@ -35,34 +35,3 @@ layout: default
 
 {% include portfolio.html %}
 
-<section class="experience-education" id="education">
-	<div class="container -flexbox -flexwrap -flex-between">
-		<div class="education">
-			<h2>Education</h2>
-
-			{% for post in site.posts %}
-				{% if post.categories contains "education" %}		
-				<div class="placement">
-					<h3>{{ post.title }}</h3>
-					<p>{{ post.location }}</p>
-				</div>	<!-- div.role -->
-				{% endif %}
-			{% endfor %}
-
-		</div> <!-- div.education -->
-		<div class="experience" id="experience">
-			<h2>Experience</h2>
-
-			{% for post in site.posts %}
-				{% if post.categories contains "experience" %}		
-				<div class="role">
-					<h3>{{ post.title }}</h3>
-					<p>{{ post.location }}</p>
-				</div>	<!-- div.role -->
-				{% endif %}
-			{% endfor %}
-		</div> <!-- div.experience -->
-	</div> <!-- div.container -->
-</section> <!-- section.experience-education -->
-
-<!-- include testimonials -->
