@@ -156,6 +156,9 @@ h2 {
   margin-top: 1.3rem;
   margin-bottom: 1rem;
 }
+h3 {
+  line-height: 4rem;
+}
 
 ol li {
   list-style-type: number;
