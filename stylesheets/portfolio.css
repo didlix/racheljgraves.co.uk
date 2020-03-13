@@ -218,7 +218,9 @@ strong {
 
 ul, li {
 }
-
+main.casestudy .container {
+  margin-top: 3rem;
+}
 main.casestudy img {
     margin: 1rem 0;
 }
