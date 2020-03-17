@@ -191,12 +191,12 @@ h4 {
 
 a {
   text-decoration: none;
-  color: hsla(27, 86%, 64%, 1); 
+  color: #d43900;
   transition: all .2s ease-in;
 }
 
 a:hover {
-  color: hsla(27, 86%, 44%, 1);
+ color: #aa2e00;
 }
 
 p, li, a {
