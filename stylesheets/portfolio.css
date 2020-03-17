@@ -195,11 +195,11 @@ a {
   transition: all .2s ease-in;
 }
 
-.hero a h3, .hero a p {
+footer a h3, footer a p, .hero a h3, .hero a p {
   font-weight: 700;
   font-family: Martel;
 }
-.hero a p {
+.hero a p, footer a p {
   font-size: 2.1rem;
 }
 
