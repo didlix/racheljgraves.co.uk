@@ -195,6 +195,13 @@ a {
   transition: all .2s ease-in;
 }
 
+.hero a h3, .hero a p {
+  font-weight: 700;
+}
+.hero a p {
+  font-size: 2.1rem;
+}
+
 a:hover {
  color: #aa2e00;
 }
@@ -356,7 +363,7 @@ section.portfolio .casestudy:hover {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-column-gap: 7px;
-  max-width: 20rem;
+  max-width: 30rem;
 }
 
 .method p {
@@ -410,14 +417,14 @@ section.about div.-flexbox div.flexcol {
   transition: all .2s ease-in;
 }
 .contact-icon {
-  height: 5rem;
-  width: 4rem;
+  height: 7rem;
+  width: 6rem;
   transition: all .2s ease-in;
 }
 
 a:hover .contact-icon {
-  height: 5.5rem;
-  width: 4.5rem;
+  height: 7.5rem;
+  width: 6.5rem;
 }
 
 .method {
