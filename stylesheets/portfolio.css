@@ -126,9 +126,23 @@ section.-background {
   grid-template-columns: 1fr 1fr;
 }
 
-.-thirds {
+.-thirds, ul.skills {
+  display: grid;
+  grid-auto-flow: row;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px 10px;
 }
+ul.skills {
+  
+}
+ul.skills li {
+  /*max-width: 200px;*/
+  /*display: block;*/
+  list-style: circle;
+
+}
+
+
 
 
 
@@ -496,8 +510,14 @@ section.hero {
   }
 }
 
+@media (max-width: 1100px) { 
+  ul.skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 1050px) { 
-  .-grid {
+  .-grid, ul.skills {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -528,7 +548,7 @@ section.hero {
     max-width: 40.1rem;  
   }
   
-  .-grid, .-left, .-right, .portfolio-grid {
+  .-grid, .-left, .-right, .portfolio-grid, ul.skills {
     grid-template-columns: 1fr;
   }
   section.hero h1, section.casehero h1 {
