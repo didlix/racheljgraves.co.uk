@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: racheljgraves.co.uk
+Token: 217297cb65c432c0f06ed4b5f3b96c0ac617dcd0d34f5150daaf346b5cc26ceb 
